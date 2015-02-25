@@ -19,9 +19,9 @@ def robocom(port=2222,serport="/dev/ttyACM0")
 
 
 if __name__=="__main__":
-        if len(sys.argv==3):
+        if len(sys.argv)==3:
                 robocom(sys.argv[1],sys.argv[2])
-        elif len(sys.argv==2):
+        elif len(sys.argv)==2:
                 robocom(sys.argv[1])
         else:
                 robocom()
